@@ -1,0 +1,21 @@
+{
+    "name": "wepesi/email",
+    "description": "simple php module to help send email using php mail module",
+    "type": "library",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Wepesi\\Email\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bim-g",
+            "email": "ibmussafb@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "wepesi/optionsresolver": "dev-master"
+    }
+}
