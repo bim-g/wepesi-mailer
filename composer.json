@@ -1,11 +1,11 @@
 {
-    "name": "wepesi/email",
-    "description": "simple php module to help send email using php mail module",
+    "name": "wepesi/mailer",
+    "description": "simple php module to help send smtp email using php mail function",
     "type": "library",
     "license": "Apache-2.0",
     "autoload": {
         "psr-4": {
-            "Wepesi\\Email\\": "src/"
+            "Wepesi\\Mailer\\": "src/"
         }
     },
     "authors": [
@@ -16,6 +16,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "wepesi/optionsresolver": "dev-master"
+        "php" : ">=7.4",
+        "wepesi/optionsresolver": "dev-master",
+        "wepesi/validation": "dev-master"
     }
 }

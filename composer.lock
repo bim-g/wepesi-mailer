@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c70669264451ad104f821dbf0cdf2e4e",
+    "content-hash": "cb6d7185793fdad7b3244fa67fb09aef",
     "packages": [
         {
             "name": "wepesi/optionsresolver",
@@ -50,17 +50,73 @@
                 "wiki": "https://github.com/bim-g/OptionsResolver"
             },
             "time": "2022-12-29T12:44:59+00:00"
+        },
+        {
+            "name": "wepesi/validation",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bim-g/wepesi_validation.git",
+                "reference": "ba502acd28f62faae068af577ea61dc1e012aee8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bim-g/wepesi_validation/zipball/ba502acd28f62faae068af577ea61dc1e012aee8",
+                "reference": "ba502acd28f62faae068af577ea61dc1e012aee8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5",
+                "spatie/phpunit-watcher": "^1.23"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Test\\": "test/",
+                    "Wepesi\\App\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Boss Ibrahim Mussa Gregoire",
+                    "email": "ibmussafb@gmail.com",
+                    "role": "Develloper"
+                },
+                {
+                    "name": "Masikilizano Emanuel Domeshow",
+                    "email": "domeshowemmanuel@gmail.com",
+                    "role": "Develloper"
+                }
+            ],
+            "description": "This module has been design to help you validate data values",
+            "support": {
+                "email": "ibmussafb@gmail.com",
+                "issues": "https://github.com/bim-g/wepesi_validation/issues",
+                "source": "https://github.com/bim-g/wepesi_validation/tree/master"
+            },
+            "time": "2023-01-02T09:49:00+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "wepesi/optionsresolver": 20
+        "wepesi/optionsresolver": 20,
+        "wepesi/validation": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=7.4"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.2.0"
 }
